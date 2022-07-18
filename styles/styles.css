@@ -1,0 +1,24 @@
+p,h1,h2,{
+    color:red;
+    font-size: 40px;
+    font-family:cursive;
+}
+
+.my-class {
+    color:blue;
+}
+
+#my-id {
+    background-color:aqua;
+}
+
+
+/*
+Comment
+*/
+
+/* To Make everything same color*/
+* {
+    color:green;
+}
+
