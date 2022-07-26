@@ -2,13 +2,12 @@
 <html>
     <head>
         <link href="styles/styles.css" rel="stylesheet">
-        <script src="scripts/javascript.js"></script>
         <title> Code Elevate Website </title>
     </head>
-    <body style="background-color:palegoldenrod;">
+    <body>
         <main>
             <section>
-                <h1 style="background-color:beige;">Code Elevate Project</h1>
+                <h1>Code Elevate Project</h1>
         
                 <h2 style="color:darkgreen;">Oakton Community College</h2>
                 <p id="my-id"><em>Hello!</em> This is my first website!</p>
@@ -75,8 +74,63 @@
                 </form>
             </section>
 
+            <!-- Button with Prompt and changing text-->
             <button onclick="myFunction()">Click Me</button>
+
             <p id="demo">This is just text</p>
+
+            <!-- List in html/js -->
+            <p id="fruitText"></p>
+
+            <!-- Counter HTML-->
+            <div id="counterId">
+                0
+            </div>
+            <button onclick=decreaseCount()>
+                -
+            </button>
+            <button onclick=increaseCount()>
+                +
+            </button>
+            <button onclick=resetCount()>
+                reset
+            </button>
+            
+            <!-- Color Screen HTML -->
+            <h1>
+                Color Screen
+            </h1>
+            <button onclick=changeBackgroundColor('blue')> 
+                blue 
+            </button>
+            <button onclick=changeBackgroundColor('red')> 
+                red 
+            </button>
+            <button onclick=changeBackgroundColor('green')> 
+                green 
+            </button>
+            <button onclick=changeBackgroundColor('black')> 
+                black 
+            </button>
+            <button onclick=changeBackgroundColor('cyan')> 
+                cyan 
+            </button>
+
+            <!-- Loop Numbers HTML-->
+            <h1>Loop Numbers</h1>
+
+            <form>
+                <label>Number:</label><br>
+                <input type="text" id="numberId"><br>
+                <label>Increase By:</label><br>
+                <input type="text" id="increaseId"><br><br>
+                <input type="button" value="Enter" onclick=sequenceNumbers()>
+            </form>
+
+            <div id="result"></div>
+
+            <script src="scripts/javascript.js"></script>
+
         </main>
 
     </body>

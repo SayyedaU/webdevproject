@@ -288,3 +288,74 @@ for(count = 0; count < 10; count++){
     console.log("Current Count:" + count);
 }
 console.log("Loop End");
+
+//array
+var fruits = ["apple","banana", "mango", "pear"];
+// how to call- 1st fruit fruits[0]; 2nd fruit fruits[1]; ... 
+// console.log(fruits[0] + " is the first fruit");
+// console.log(fruits[1] + " is the second fruit");
+
+var i;
+for(i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+//list in js
+let text = "<ul>";
+fruits.forEach(fruitFunction);
+text += "</ul>";
+document.getElementById("fruitText").innerHTML = text;
+
+function fruitFunction(value) {
+    text += "<li>" + value + "</li>";
+}
+
+//counter buttons in js
+let counterHTML = document.getElementById("counterId");
+console.log(counterHTML);
+let totalCount = 0;
+function increaseCount() {
+    totalCount += 1;
+    counterHTML.textContent = totalCount;
+}
+
+function decreaseCount() {
+    totalCount -= 1;
+    counterHTML.textContent = totalCount;
+}
+
+function resetCount() {
+    totalCount = 0;
+    counterHTML.textContent = totalCount;
+}
+
+//button to change background color 
+function changeBackgroundColor(color) {
+    document.body.style.backgroundColor = color;
+
+    if (color == 'black') {
+        document.body.style.color = "yellow";
+    }
+}
+
+
+//Loop Numbers
+let result = document.getElementById("result");
+console.log(result);
+let counter = "";
+let e = 0;
+function sequenceNumbers() {
+    let number = document.getElementById("numberId").value;
+
+    let increase = document.getElementById("increaseId").value;
+
+    let max = parseInt(increase) + parseInt(number) + 1;
+
+    for(e = ++number; e < max; e++) {
+        counter += e;
+        counter += " ";
+    }
+    result.textContent = counter;
+}
+
+

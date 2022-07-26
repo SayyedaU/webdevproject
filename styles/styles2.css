@@ -46,7 +46,16 @@ ul{
     font-style: italic;
 }
 
-ol, h4{
+h4{
+    background-color: bisque;
+    font-size: 30px;
+    padding-block: 50px;
+    border: 5px solid darkblue;
+}
+
+ol{
+    margin-left: 1000px;
+    margin-right: 1000px;
     background-color: bisque;
     font-size: 30px;
     padding-block: 50px;
