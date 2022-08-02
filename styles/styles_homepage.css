@@ -1,23 +1,24 @@
 h1{
-    margin-top: 10%;
+    margin-top: 11%;
     margin-bottom: .5%;
-    font-size: 100px;
+    font-size: 500%;
     text-align: center;
     color: rgba(129,109,91,255);
     font-family: 'Hachi Maru Pop', serif;
 
 }
 h2{
+    margin-top: 3%;
     margin-left: 55%;
     color:rgba(129,109,91,255);
-    font-size: 45px;
+    font-size: 200%;
     font-family: 'Hachi Maru Pop', serif;
 }
 
 .center{
     text-align: center;
-    margin-top: 15px;
-    font-size: 50px;
+    margin-top: 1.2%;
+    font-size: 260%;
 }
 
 a{
