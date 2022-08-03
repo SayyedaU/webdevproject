@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color: rgba(237,227,215,255);
+    font-family: 'Hachi Maru Pop', serif;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(202,178,154,255);
+    font-family: 'Hachi Maru Pop', serif;
+    border-radius: 10px;
+    color: rgba(129,109,91,255);
+    padding-block: 10px;
+  }
+
+a{
+  color: rgba(69,54,47,255);
+}
+
+.contact{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap:5%;
+    text-align: center;
+}
+
+button {
+    background-color:rgba(237,223,169,255);
+    border: rgba(237,223,169,255);
+    border-radius: 20px;
+    padding-block: 10px;
+    font-family: 'Hachi Maru Pop', serif;
+    }
+
+    input{
+        padding-left: 50px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+      }
+
