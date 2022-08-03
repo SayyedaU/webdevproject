@@ -1,12 +1,30 @@
-h1,h2,p{
+h1,h2{
     text-align: center;
+    font-family: 'Hachi Maru Pop', serif;
+    color:rgba(69,54,47,255)
+}
+
+p{
+  text-align: center;
+  color: rgba(129,109,91,255);
 }
 
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     list-style-type: none;
-    border: 5px solid darkblue;
+    border: 5px solid rgba(65,48,44,255);
+    border-radius: 10px;
+    color: rgba(129,109,91,255);
+    background-color: rgba(243,221,165,255);
+    text-align: center;
+  }
+
+  ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    text-align: center;
   }
 
   .grid {
@@ -14,15 +32,26 @@ ul {
     grid-template-columns: repeat(3, 1fr);
     gap:5%;
     text-align: center;
-    border: 5px solid darkblue;
+    border: 50px solid rgba(202,178,154,255);
+    color: rgba(129,109,91,255);
+    border-radius: 20px;
+    background-color: rgba(210,229,236,255);
     
 }
 
 .grid2 {
   display: grid; 
   grid-template-columns: repeat(3, 1fr);
-  gap:5%;
+  gap:1%;
   text-align: center;
-  border: 5px solid darkblue;
+  border: 50px solid rgba(202,178,154,255);
+  color: rgba(129,109,91,255);
+  border-radius: 20px;
+  background-color:rgba(177,199,162,255);
   
 }
+
+body{
+  background-color: rgba(236,228,216,255);
+}
+
