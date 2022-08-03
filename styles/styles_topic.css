@@ -1,0 +1,28 @@
+h1,h2,p{
+    text-align: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    border: 5px solid darkblue;
+  }
+
+  .grid {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap:5%;
+    text-align: center;
+    border: 5px solid darkblue;
+    
+}
+
+.grid2 {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  gap:5%;
+  text-align: center;
+  border: 5px solid darkblue;
+  
+}
