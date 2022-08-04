@@ -1,5 +1,5 @@
 function myFunction() {
-    if(document.getElementById("name").innerHTML){
+    if(document.getElementById("name").innerHTML.length > 0){
         alert("You Submitted!");
     }
     if(document.getElementById("email").innerHTML){
@@ -7,5 +7,4 @@ function myFunction() {
     }
     if(document.getElementById("comments").innerHTML){
         alert("You Submitted!");
-    } 
 }

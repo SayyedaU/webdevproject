@@ -10,4 +10,6 @@ function LEscroll(){}
 
 function CEscroll(){}
 
+function submit() {}
+
 
